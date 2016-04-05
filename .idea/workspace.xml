@@ -2,107 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa57904-c01a-4d96-aa03-de5143a8f08e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/artifacts/slownews_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/artifacts/slownews_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/slownews.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.annotation.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.ejb.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.jms.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.persistence.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.resource.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.servlet.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.servlet.jsp.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.servlet.jsp.jstl.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/lib/javax.transaction.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/DAO/InitNews.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/DAO/UsersContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/AllNewsServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/ArchiveServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/LoginServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/LogoutServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/RegistrationServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/ShowAllUsersServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/controller/filter/RequestFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/model/News.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/model/Topic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/java/model/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Allnews.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Archive.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Greeting.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/LoginReport.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Registration.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/RegistrationReport.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/view/Users.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Error.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Money.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Ok.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Politic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Scients.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/Sport.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/joker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/src/main/webapp/images/slowpoke.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/DAO/InitNews.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/DAO/UsersContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/AllNewsServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/ArchiveServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/LogoutServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/RegistrationServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/ShowAllUsersServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/controller/filter/RequestFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/model/News.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/model/Topic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/classes/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/DAO/InitNews.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/DAO/UsersContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/AllNewsServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/ArchiveServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/LogoutServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/RegistrationServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/ShowAllUsersServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/controller/filter/RequestFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/model/News.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/model/Topic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/classes/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Allnews.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Archive.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Greeting.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/LoginReport.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Registration.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/RegistrationReport.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/view/Users.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Error.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Money.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Ok.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Politic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Scients.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/Sport.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/joker.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/slownews/target/slownews/images/slowpoke.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DAO/InitNews.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/DAO/UsersContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/AllNewsServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/ArchiveServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/LoginServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/LogoutServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/RegistrationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/ShowAllUsersServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/controller/filter/RequestFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/model/News.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/model/Topic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/DAO/InitNews.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/DAO/UsersContainer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/AllNewsServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/ArchiveServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/LoginServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/LogoutServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/RegistrationServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/ShowAllUsersServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/controller/filter/RequestFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/model/News.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/model/Topic.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/classes/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Allnews.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Archive.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Greeting.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/LoginReport.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Registration.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/RegistrationReport.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/view/Users.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Error.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Money.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Ok.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Politic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Scients.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/Sport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/joker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/slownews/images/slowpoke.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/slownews_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/slownews_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/slownews.iml" afterPath="$PROJECT_DIR$/.idea/slownews.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="slownews.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,11 +87,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RequestFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RequestFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/filter/RequestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
+            <state relative-caret-position="206">
               <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -170,24 +142,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Archive.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Archive.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Archive.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <marker date="1459640162618" expanded="true" signature="482:1886" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -267,7 +227,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/controller/AllNewsServlet.kt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Users.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Archive.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Login.jsp" />
@@ -303,6 +262,7 @@
         <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ArchiveServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/DAO/InitNews.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -326,11 +286,50 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="slownews Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="slownews Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="slownews Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="77" />
+    <option name="x" value="128" />
+    <option name="y" value="51" />
     <option name="width" value="1631" />
     <option name="height" value="893" />
   </component>
@@ -380,6 +379,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,24 +519,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slownews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slownews" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -628,9 +610,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slownews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slownews" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1196,27 +1191,27 @@
       <workItem from="1459623878718" duration="4098000" />
       <workItem from="1459749153446" duration="21161000" />
       <workItem from="1459779204841" duration="41000" />
+      <workItem from="1459888288093" duration="198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80952000" />
+    <option name="totallyTimeSpent" value="81150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="77" width="1631" height="893" extended-state="0" />
-    <editor active="true" />
+    <frame x="128" y="51" width="1631" height="893" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38366336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908976" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34428385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34428385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1232,6 +1227,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="301" y="260" width="1431" height="547" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1373,14 +1369,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/controller/AllNewsServlet.kt" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/slownews/WEB-INF/style.css" />
     <entry file="file://$PROJECT_DIR$/target/slownews/WEB-INF/view/style.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/style1.css" />
@@ -1531,9 +1519,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <marker date="1459640162618" expanded="true" signature="482:1886" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,14 +1569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Archive.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/ArchiveServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1617,8 +1595,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/filter/RequestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="206">
           <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/Archive.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
