@@ -5,7 +5,7 @@ body{
 }
 .menu{
     position: fixed;
-    top: 180px;
+    top: 200px;
     left: 10px;
     background-color: #dacc97;
     border: 2px solid black;
@@ -17,7 +17,7 @@ body{
 }
 .greeting{
     position: fixed;
-    top: 10px;
+    top: 50px;
     left: 10px;
     background-color: snow;
     border: 2px solid black;
@@ -60,6 +60,7 @@ body{
 }
 .newsboard{
     background-color: white;
+    top: 60px;
     position: relative;
     left: 300px;
     height: auto;
@@ -88,6 +89,10 @@ body{
     margin: 10px;
     border-radius: 5px;
 }
+
+.image{
+    border-radius: 5px;
+}
 .g_button{
     display: inline;
     padding: 10px;
@@ -96,4 +101,18 @@ body{
 
 .listUser{
     text-align: left;
+}
+.header{
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    font-family: "Times New Roman";
+    font-size:  25px;
+    background-color: cadetblue;
+    z-index: 10;
+    color: white;
+    padding-left: 50px;
 }

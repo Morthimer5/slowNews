@@ -9,7 +9,14 @@
 
     <c:import url="Greeting.jsp"/>
 
+
+
     <c:if test="${logreport == 'Ok'}">
+
+        <div class="header">
+            Slow News: Welcome a board!
+        </div>
+
         <div class="board">
             <img class="reportimg" src="images/Ok.jpg">
             <p>
@@ -18,20 +25,16 @@
         </div>
     </c:if>
 
-    <c:if test="${logreport == 'pass'}">
-        <div class="board">
-            <img class="reportimg" src="images/Error.jpg">
-            <p>
-                "Wrong password!"
-            </p>
-        </div>
-    </c:if>
+    <c:if test="${logreport == 'faild'}">
 
-    <c:if test="${logreport == 'login'}">
+        <div class="header">
+            Slow News: Try one more time.
+        </div>
+
         <div class="board">
             <img class="reportimg" src="images/Error.jpg">
             <p>
-                "Wrong login!"
+                "Wrong password or login!"
             </p>
         </div>
     </c:if>

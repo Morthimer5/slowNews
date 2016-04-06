@@ -8,6 +8,10 @@
 <body>
     <c:import url="Greeting.jsp"/>
 
+    <div class="header">
+        Slow News: Awesome people!
+    </div>
+
     <div class="board">
         <ul>
         <c:forEach  var="entry" items="${requestScope.users}">

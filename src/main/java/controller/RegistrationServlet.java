@@ -39,7 +39,7 @@ public class RegistrationServlet extends HttpServlet{
             return;
         }else {
             UsersContainer.setUser(req.getParameter("login"), new User(req.getParameter("name"), req.getParameter("login"),
-                    req.getParameter("mail"), req.getParameter("password"), new HashMap<String, News>()));
+                    req.getParameter("mail"), req.getParameter("password"), new HashMap<Integer, News>()));
 
             req.setAttribute("regreport", "Ok");
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/RegistrationReport.jsp");

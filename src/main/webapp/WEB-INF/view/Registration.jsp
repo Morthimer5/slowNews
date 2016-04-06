@@ -8,6 +8,10 @@
 <body>
     <c:import url="Greeting.jsp"/>
 
+    <div class="header">
+        Slow News: Nice to meet you.
+    </div>
+
 <div class="board">
     <form action="/registration" method="post">
         <p><h1>Registration</h1></p>
@@ -19,9 +23,9 @@
             e-mail<br/>
             <input type="e-mail" name="mail"><br/>
             Password<br/>
-            <input type="text" name="password"><br/>
+            <input type="password" name="password"><br/>
             Confirm password<br/>
-            <input type="text" name="confirmPassword"><br/><br/>
+            <input type="password" name="confirmPassword"><br/><br/>
             <input type="submit" value="Ok">
     </form>
 </div>

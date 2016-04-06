@@ -1,8 +1,5 @@
 package controller.filter;
 
-
-
-
 import DAO.UsersContainer;
 
 import javax.servlet.*;
@@ -18,6 +15,10 @@ public class RequestFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+
+
+
+
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpSession session = req.getSession();
         if(session.getAttribute("user") == null) {
@@ -35,8 +36,6 @@ public class RequestFilter implements Filter {
 
         filterChain.doFilter(servletRequest, servletResponse);
     }
-
-
 
     @Override
     public void destroy() {

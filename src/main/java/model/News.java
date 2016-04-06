@@ -1,17 +1,15 @@
 package model;
 
 public class News {
-    private Topic topic;
     private String text;
     private String image;
     private String name;
     private int id;
 
-    public News(String name, String text, String image, Topic topic, int id) {
+    public News(String name, String text, String image, int id) {
         this.name = name;
         this.text = text;
         this.image = image;
-        this.topic = topic;
         this.id = id;
     }
 
@@ -24,14 +22,6 @@ public class News {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public Topic getTopic() {
-        return topic;
-    }
-
-    public void setTopic(Topic topic) {
-        this.topic = topic;
     }
 
     public String getName() {

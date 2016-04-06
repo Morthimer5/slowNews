@@ -8,7 +8,13 @@
 <body>
     <c:import url="Greeting.jsp"/>
 
+
+
     <c:if test="${regreport == 'Ok'}">
+
+        <div class="header">
+            Slow News: Welcome!
+        </div>
         <div class="board">
             <img class="reportimg" src="images/Ok.jpg">
             <p>
@@ -18,6 +24,9 @@
     </c:if>
 
     <c:if test="${regreport == 'Pass'}">
+        <div class="header">
+            Slow News: Try one more time.
+        </div>
         <div class="board">
             <img class="reportimg" src="images/Error.jpg">
             <p>
@@ -30,7 +39,7 @@
         <div class="board">
             <img class="reportimg" src="images/Error.jpg">
             <p>
-                "Login is already in use!"
+                "Username is already occupied!"
             </p>
         </div>
     </c:if>

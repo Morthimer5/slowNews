@@ -8,13 +8,13 @@ public class User {
     private String login;
     private String mail;
     private String password;
-    private Map<String, News> newsArchive;
+    private Map<Integer, News> newsArchive;
 
-    public Map<String, News> getNewsArchive() {
+    public Map<Integer, News> getNewsArchive() {
         return newsArchive;
     }
 
-    public void setNewsArchive(Map<String, News> newsArchive) {
+    public void setNewsArchive(Map<Integer, News> newsArchive) {
         this.newsArchive = newsArchive;
     }
 
@@ -53,7 +53,7 @@ public class User {
     public User() {
     }
 
-    public User(String name, String login, String mail, String password, Map<String, News> newsArchive) {
+    public User(String name, String login, String mail, String password, Map<Integer, News> newsArchive) {
         this.name = name;
         this.login = login;
         this.mail = mail;
@@ -61,7 +61,11 @@ public class User {
         this.newsArchive = newsArchive;
     }
     public void addNews(News news){
-        newsArchive.put(news.getName(), news);
+        newsArchive.put(news.getId(), news);
+    }
+
+    public void removeNews(News news){
+        newsArchive.remove(news.getId());
     }
 
 }

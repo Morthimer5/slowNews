@@ -24,21 +24,16 @@ public class LoginServlet extends HttpServlet {
 
         //Написать
         String login = req.getParameter("login");
-        if(UsersContainer.getUsers().containsKey(login)){
-            if(((String)UsersContainer.getUsers().get(login).getPassword()).equals(req.getParameter("password"))){
+        if(UsersContainer.validateUser(login, req.getParameter("password"))){
 
-                req.setAttribute("logreport", "ok");
-                req.getSession().setAttribute("user", UsersContainer.getUsers().get(login));
-                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/LoginReport.jsp");
-                dispatcher.forward(req, resp);
-            }else{
-                req.setAttribute("logreport", "pass");
-                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/LoginReport.jsp");
-                dispatcher.forward(req, resp);
-            }
+            req.setAttribute("logreport", "Ok");
+            req.getSession().setAttribute("user", UsersContainer.getUsers().get(login));
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/LoginReport.jsp");
+            dispatcher.forward(req, resp);
+
         }else{
 
-            req.setAttribute("logreport", "login");
+            req.setAttribute("logreport", "faild");
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/LoginReport.jsp");
             dispatcher.forward(req, resp);
         }

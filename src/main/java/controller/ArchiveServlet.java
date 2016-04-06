@@ -1,6 +1,7 @@
 package controller;
 
 import DAO.InitNews;
+import DAO.NewsContainer;
 import model.User;
 
 import javax.servlet.RequestDispatcher;
@@ -19,8 +20,15 @@ public class ArchiveServlet  extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("<" + req.getParameter("newsId") + ">");
         int newsId = Integer.parseInt(req.getParameter("newsId"));
         User user = (User)(req.getSession().getAttribute("user"));
-        user.addNews(new InitNews().getNewsById(newsId));
+        if(req.getParameter("remove").equals("true")){
+            user.removeNews(NewsContainer.getNewsById(newsId));
+        }else {
+            user.addNews(NewsContainer.getNewsById(newsId));
+        }
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/Archive.jsp");
+        dispatcher.forward(req, resp);
     }
 }

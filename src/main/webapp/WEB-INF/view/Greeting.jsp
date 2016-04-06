@@ -19,6 +19,11 @@
             <input type="submit" value="Logout">
         </form>
     </c:if>
+
+    <div class="weather">
+
+    </div>
+
 </div>
 <div class="menu">
     <p>
