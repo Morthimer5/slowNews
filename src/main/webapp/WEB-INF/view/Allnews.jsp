@@ -1,10 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Slow News</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-</head>
+
+<c:import url="Head.jsp"/>
+
 <body>
     <div class="header">
         Slow News: Some fresh news here!
@@ -15,30 +14,33 @@
     <div class="newsboard">
 
 
-        <c:forEach  var="entry" items="${requestScope.newsMap}">
+        <c:forEach  var="news" items="${requestScope.newsList}" varStatus="loop">
 
 
-            <div class="article">
-                <h1>${entry.value.name}</h1>
+            <div class="article" >
+                <div class="head" onclick="showFunction('newsbody${loop.index}')">
+                    <h1 >${news.name}</h1>
+                </div>
 
+                <div class="newsbody" id="newsbody${loop.index}">
                 <div class="image">
-                    <img class="picture" src="images/${entry.value.image}">
+                   ${news.image}
                 </div>
 
                 <p>
-                    ${entry.value.text}
+                    ${news.text}
                 </p>
 
                 <c:if test='${sessionScope.user != "Guest"}'>
                     <form action="/archive" method="post">
                         <input type="hidden" name="remove" value="false">
-
-                        <input type="hidden" name="newsId" value="${entry.value.id}"/>
+                        <input type="hidden" name="topic" value="${requestScope.topic}">
+                        <input type="hidden" name="newsId" value="${loop.index}"/>
 
                         <input type="submit" value="Add to archive">
                     </form>
                 </c:if>
-
+                </div>
             </div>
         </c:forEach>
     </div>

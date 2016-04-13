@@ -1,5 +1,10 @@
 package model;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+
+@XmlRootElement(name ="item")
 public class News {
     private String text;
     private String image;
@@ -28,6 +33,7 @@ public class News {
         return name;
     }
 
+    @XmlElement(name = "title")
     public void setName(String name) {
         this.name = name;
     }
@@ -36,6 +42,7 @@ public class News {
         return image;
     }
 
+    @XmlElement(name = "description")
     public void setImage(String image) {
         this.image = image;
     }
@@ -44,6 +51,7 @@ public class News {
         return text;
     }
 
+    @XmlElement(name = "fulltext")
     public void setText(String text) {
         this.text = text;
     }

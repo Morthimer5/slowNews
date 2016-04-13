@@ -1,10 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Sloe News</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
-</head>
+
+<c:import url="Head.jsp"/>
+
 <body>
     <c:import url="Greeting.jsp"/>
 

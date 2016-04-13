@@ -5,7 +5,7 @@ body{
 }
 .menu{
     position: fixed;
-    top: 200px;
+    top: 380px;
     left: 10px;
     background-color: #dacc97;
     border: 2px solid black;
@@ -24,23 +24,23 @@ body{
     box-shadow: black 5px 5px;
     border-radius: 5px;
     width: 230px;
-    height: 130px;
+    height: 110px;
     margin: 20px;
-    padding-left: 20px;
+    padding: 10px;
     font-size: 25px;
 
 }
-.menu a{
+.menulink{
     font-size: 30px;
     padding: 10px;
     margin: 10px;
     text-decoration: none;
     color: black;
 }
-.menu a:link{
+.menulink:link{
     color: black;
 }
-.menu a:hover{
+.menulink:hover{
     color: gray;
 }
 .board{
@@ -115,4 +115,39 @@ body{
     z-index: 10;
     color: white;
     padding-left: 50px;
+}
+
+.weather{
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: black 5px 5px;
+    border-radius: 5px;
+    width: 210px;
+    height: 130px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 5px;
+}
+.newsbody{
+  display: none;
+}
+
+.search{
+    position: fixed;
+    z-index: 11;
+    top: 10px;
+    right: 0;
+    height: 20px;
+    background-color: yellow;
+
+}
+.search img{
+    height: 25px;
+}
+
+.found{
+    background-color: yellow;
 }

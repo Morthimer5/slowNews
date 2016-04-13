@@ -5,13 +5,12 @@
 
 
     <c:if test='${sessionScope.user == "Guest"}'>
-        <p>Hello, ${sessionScope.user}!<p>
-        <form class="g_button" action="/login" method="get">
-            <input type="submit" value="Login">
-        </form>
-        <form class="g_button" action="/registration" method="get">
-            <input type="submit" value="Sign up">
-        </form>
+        Hello, ${sessionScope.user}!
+
+
+        <a class="menulink" href="/login">Login</a><br>
+        <a class="menulink" href="/registration">Sign in</a>
+
     </c:if>
     <c:if test='${sessionScope.user != "Guest"}'>
         <p>Hello, ${sessionScope.user.name}!<p>
@@ -20,19 +19,28 @@
         </form>
     </c:if>
 
-    <div class="weather">
-
-    </div>
-
 </div>
 <div class="menu">
     <p>
-        <a href="/news">News</a><br/>
+        <a class="menulink" href="/news">News</a><br/>
+        <a class="menulink" href="/java">Java News</a><br/>
+
 
         <c:if test='${sessionScope.user != "Guest"}'>
-            <a href="/archive">Archive</a><br/>
-            <a href="/allusers">Users</a><br/>
+            <a class="menulink" href="/archive">Archive</a><br/>
+            <a class="menulink" href="/allusers">Users</a><br/>
         </c:if>
     </p>
+</div>
+<div class="search">
+    <img src="images/search.png">
+    <input class="searchfild" type="text" placeholder="Search">
+    <input type="button" value="Look for" onsubmit="highlight()">
+</div>
+
+<div class="weather">
+    <p>Weather in Kiev:</p>
+        <img src="/images/weather/64/${requestScope.weather.sky}.png"></br>
+    Temperature: ${requestScope.weather.temperature} &#176; C </br>
 </div>
 

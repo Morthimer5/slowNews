@@ -10,7 +10,7 @@ import java.util.Map;
 public class UsersContainer {
     static private Map<String, User> users = new HashMap<>();
     static{
-        users.put("admin", new User("admin", "admin", "admin", "admin", new HashMap<Integer, News>()));
+        users.put("admin", new User("admin", "admin", "admin", "admin", new ArrayList<News>()));
     }
 
     public static User getUser(String key){

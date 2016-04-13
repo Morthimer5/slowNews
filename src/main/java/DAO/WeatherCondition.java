@@ -1,40 +1,35 @@
 package DAO;
 
 import model.Weather;
+import org.json.JSONObject;
 
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.client.*;
 import javax.ws.rs.core.Form;
 import javax.ws.rs.core.MediaType;
 
 
 public class WeatherCondition {
-    public static long currentTime = 0;
+    private static long currentTime = 0;
+    private static Weather weather = new Weather();
 
 
 
-    public void getWeather(){
+    public static Weather getWeather(){
         if(System.currentTimeMillis() - currentTime > 600000){
             currentTime = System.currentTimeMillis();
-
+            updateWeatherFromResurse();
         }
+        return weather;
     }
 
-    private static void getWeatherFromResurse(){
+    private static void updateWeatherFromResurse(){
 
-        Client client = ClientBuilder.newClient();
-        WebTarget target = client.target("http://localhost:9998").path("resource");
+        JSONObject jsonWeather = new JSONObject(ClientBuilder.newClient()
+                .target("https://api.forecast.io/forecast/de27fd446527ecc37f5301d3a073279e/50.43,30.52?units=si")
+                .request(MediaType.APPLICATION_JSON).get(String.class)).getJSONObject("currently");
 
-        Form form = new Form();
-        form.param("x", "foo");
-        form.param("y", "bar");
-
-        Weather weather =
-                target.request(MediaType.APPLICATION_JSON_TYPE)
-                        .post(Entity.entity(form,MediaType.APPLICATION_FORM_URLENCODED_TYPE),
-                                Weather.class);
+        weather.setSky(jsonWeather.getString("icon"));
+        weather.setTemperature(jsonWeather.getInt("temperature"));
     }
 
 }

@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -39,7 +40,7 @@ public class RegistrationServlet extends HttpServlet{
             return;
         }else {
             UsersContainer.setUser(req.getParameter("login"), new User(req.getParameter("name"), req.getParameter("login"),
-                    req.getParameter("mail"), req.getParameter("password"), new HashMap<Integer, News>()));
+                    req.getParameter("mail"), req.getParameter("password"), new ArrayList<News>()));
 
             req.setAttribute("regreport", "Ok");
             RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/view/RegistrationReport.jsp");

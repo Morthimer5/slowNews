@@ -1,6 +1,5 @@
 package controller;
 
-import DAO.InitNews;
 import DAO.NewsContainer;
 
 import javax.servlet.RequestDispatcher;

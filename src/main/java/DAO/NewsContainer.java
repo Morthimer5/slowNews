@@ -2,27 +2,60 @@ package DAO;
 
 import model.News;
 
-import java.util.HashMap;
-import java.util.Map;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
+@XmlRootElement(name="rss")
 public class NewsContainer {
-    private static Map<Integer, News> newsMap = new HashMap<>();
+
+    @XmlElementWrapper(name = "channel")
+    @XmlElement(name = "item")
+    private static List<News> newsList = new ArrayList<>();
+
+    private static long currentTime = 0;
+
 
     private NewsContainer() {
     }
 
-    public  static void setNews(News news){
-        newsMap.put(news.getId(), news);
+    public  static void addNews(News news){
+        newsList.add(news);
     }
     public static News getNewsById(int id){
-        return newsMap.get(id);
-    }
-    public static Map<Integer, News> getNews(){
-        if(newsMap.isEmpty()) {
-            InitNews.initNews();
-        }
-        return newsMap;
+        return newsList.get(id);
     }
 
+    public static void setNews(List<News> newsList) {
+        NewsContainer.newsList = newsList;
+    }
+    public static List<News> getNews(){
+
+        if(System.currentTimeMillis() - currentTime > 600000){
+            currentTime = System.currentTimeMillis();
+            updateNewsFromResurs();
+        }
+        return newsList;
+    }
+
+    private static void updateNewsFromResurs(){
+
+        try {
+            JAXBContext jaxbContext = JAXBContext.newInstance( NewsContainer.class );
+            jaxbContext.createUnmarshaller().unmarshal(new URL("http://k.img.com.ua/rss/ru/all_news2.0.xml"));
+
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 }

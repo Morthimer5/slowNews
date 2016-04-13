@@ -1,0 +1,153 @@
+body{
+    background-color: gray;
+    font-family: "Times New Roman";
+
+}
+.menu{
+    position: fixed;
+    top: 380px;
+    left: 10px;
+    background-color: #dacc97;
+    border: 2px solid black;
+    box-shadow: black 5px 5px;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+}
+.greeting{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: snow;
+    border: 2px solid black;
+    box-shadow: black 5px 5px;
+    border-radius: 5px;
+    width: 230px;
+    height: 110px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+
+}
+.menulink{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.menulink:link{
+    color: black;
+}
+.menulink:hover{
+    color: gray;
+}
+.board{
+    width: auto;
+    min-width: 210px;
+    heigth: 250px;
+    position: fixed;
+    margin: 10px;
+    line-height: 160%;
+    top: 20%;
+    left: 40%;
+    background-color: #9edaa7;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 5px;
+    text-align: center;
+}
+.newsboard{
+    background-color: white;
+    top: 60px;
+    position: relative;
+    left: 300px;
+    height: auto;
+    min-width: 300px;
+    max-width: 70%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 5px;
+}
+
+.picture{
+    height: 200px;
+    border-radius: 5px;
+
+}
+.article{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.reportimg{
+    padding: 15px;
+    width: 210px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.image{
+    border-radius: 5px;
+}
+.g_button{
+    display: inline;
+    padding: 10px;
+
+}
+
+.listUser{
+    text-align: left;
+}
+.header{
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    font-family: "Times New Roman";
+    font-size:  25px;
+    background-color: cadetblue;
+    z-index: 10;
+    color: white;
+    padding-left: 50px;
+}
+
+.weather{
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: black 5px 5px;
+    border-radius: 5px;
+    width: 210px;
+    height: 130px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 5px;
+}
+.newsbody{
+  display: none;
+}
+
+.search{
+    position: fixed;
+    z-index: 11;
+    top: 10px;
+    right: 0;
+    height: 20px;
+    background-color: yellow;
+
+}
+.search img{
+    height: 25px;
+}
+
+.found{
+    background-color: yellow;
+}

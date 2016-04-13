@@ -1,5 +1,6 @@
 package model;
 
+import java.util.List;
 import java.util.Map;
 
 public class User {
@@ -8,13 +9,13 @@ public class User {
     private String login;
     private String mail;
     private String password;
-    private Map<Integer, News> newsArchive;
+    private List<News> newsArchive;
 
-    public Map<Integer, News> getNewsArchive() {
+    public List<News> getNewsArchive() {
         return newsArchive;
     }
 
-    public void setNewsArchive(Map<Integer, News> newsArchive) {
+    public void setNewsArchive(List<News> newsArchive) {
         this.newsArchive = newsArchive;
     }
 
@@ -53,7 +54,7 @@ public class User {
     public User() {
     }
 
-    public User(String name, String login, String mail, String password, Map<Integer, News> newsArchive) {
+    public User(String name, String login, String mail, String password, List<News> newsArchive) {
         this.name = name;
         this.login = login;
         this.mail = mail;
@@ -61,11 +62,13 @@ public class User {
         this.newsArchive = newsArchive;
     }
     public void addNews(News news){
-        newsArchive.put(news.getId(), news);
+        if(!newsArchive.contains(news)) {
+            newsArchive.add(news);
+        }
     }
 
     public void removeNews(News news){
-        newsArchive.remove(news.getId());
+        newsArchive.remove(news);
     }
 
 }

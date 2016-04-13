@@ -7,6 +7,7 @@
           <element id="module-output" name="slownews" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.2" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.22.2" />
           <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" />
@@ -21,6 +22,7 @@
           <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.4.0-b34" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.18.1-GA" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.json:json:20160212" />
         </element>
       </element>
       <element id="directory" name="META-INF">
