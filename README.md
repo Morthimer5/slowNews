@@ -1,6 +1,7 @@
 Simple Web-aplication
 
-Get news from .RSS news chanels;
+Gets news from .RSS news chanels;
+Shows it in two topics;
 Shows weather;
 
 
